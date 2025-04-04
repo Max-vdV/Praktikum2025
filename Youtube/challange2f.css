@@ -1,0 +1,67 @@
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+
+a{
+    color: rgb(0, 113, 133);
+    cursor: pointer;
+    display: inline;
+}
+a:hover{
+    color: orange;
+}
+.product-text{
+    color: black;
+}
+
+.price-text{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+.delivery-text{
+    color: black;
+    font-size: 20px;
+}
+.add-button{
+    color: black;
+    background-color: rgb(255, 216, 20);
+    padding: 20px;
+    border-radius: 24px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.15s,
+    box-shadow 0.15s;
+    
+}
+.add-button:hover{
+    opacity: 0.7;;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.add-button:active{
+    opacity: 0.5;;
+}
+.buy-button{
+    color: black;
+    background-color: rgb(255, 164, 28);
+    padding: 20px;
+    border-radius: 24px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.15s,
+    color 0.15s,
+    box-shadow 0.15s;
+}
+
+.buy-button:hover{
+    background-color: black;
+    color: rgb(255, 164, 28);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.buy-button:active{
+    opacity: 0.7;
+}

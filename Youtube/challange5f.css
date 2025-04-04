@@ -1,0 +1,57 @@
+.mac-pro-wrapper{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.new-text{
+    color: orange;
+}
+.item-text{
+    font-size: 20px;
+}
+.type-text{
+    font-size: 30px;
+}
+.price-text{
+    color: rgb(73, 71, 71);
+}
+.buy-button{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(36, 113, 255);
+    color: white;
+    border-radius: 18px;
+    border: none;
+}
+
+.trading-wrapper{
+    margin: 0px;
+    margin-bottom: 100px;
+}
+.now-price{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.usd-text{
+    color: rgb(156, 149, 149);
+    font-size: 20px;
+}
+.process-text{
+    color: rgb(21, 175, 21);
+}
+.late-text{
+    color:rgb(156, 149, 149);
+}
+.minus-text{
+    color: red;
+}
+
+.code-text{
+    font-weight: bold;
+}
+.add-text{
+    color:rgb(156, 149, 149);
+    font-weight: normal;
+}
+.email-text{
+    color: rgb(113, 209, 241);
+}

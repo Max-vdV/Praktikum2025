@@ -1,0 +1,29 @@
+.bg-blue{
+    background-color: lightblue;
+}
+.bg-pink{
+    background-color: lightpink;
+}
+.grid{
+    display: grid;
+    margin-top: 30px;
+}
+
+div#A001{
+    grid-template-columns: 100px 100px 1fr;
+}
+
+div#A002{
+    grid-template-columns: 100px 100px 200px;
+}
+
+div#A003{
+    grid-template-columns: 100px 1fr;
+}
+
+div#A004{
+    grid-template-columns: 100px 1fr 2fr;
+}
+
+
+
